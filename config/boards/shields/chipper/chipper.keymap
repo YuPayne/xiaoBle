@@ -52,13 +52,13 @@
                 DEF_layer {
                         bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
-&mt LS(LC(LALT)) ESC     &kp Q         &kp W         &kp E    &kp R  &kp T             &kp Y         &kp U         &kp I         &kp O         &lt FN P        &kp BSPC
+&kp ESC     &kp Q         &kp W         &kp E          &kp R         &kp T             &kp Y         &kp U         &kp I         &kp O         &kp  P        &kp BSPC
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-&kp TAB     &mt LG(A) A   &kp S         &kp D         &mt LG(F) F   &kp G             &kp H         &kp J         &kp K         &kp L         &kp SEMI         &kp RET
+&kp TAB     &kp A         &kp S         &kp D         &kp  F         &kp G             &kp H         &kp J         &kp K         &kp L       &mt SEMI COLON   &kp RET
 //├──────┤ ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤ ├──────┤
-&kp LCTRL     &kp Z    &mt LG(X) X   &mt LG(C) C   &mt LG(V) V   &mt LS(LC(LA(V))) B   &kp N        &kp M        &mt SEMI COMMA &mt COLON DOT &mt EXCL QMARK  &kp RSHIFT
+&kp LSHIFT  &kp Z         &kp X         &kp C         &kp  V         &kp B             &kp N        &kp M        &mt LT COMMA  &mt GT DOT    &mt FSLH QMARK  &kp RSHIFT
 //├──────┤ ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┴───────────────────────────╯ ├──────┤
-                                         &kp LALT     &sk LGUI      &lt NAV SPC       &lt NUM SPC   &kp DEL      &kp COLON
+                                         &kp LCTRL     &kp LALT      &lt NAV SPC       &lt NUM SPC   &kp DEL      &kp CAPS
 //                                     ╰────────────┼──────────────┴─────────────╯   ╰─────────────┴─────────────┼─────────────╯
                         >;
                 };
