@@ -65,7 +65,7 @@
                 };
 
                 NAV_layer {
-                        display-name = "1：Navigation";
+                        display-name = "1 Navigation";
                         bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
     ___     &kp ESC      &kp LS(LC(TAB)) &kp UP       &kp LC(TAB)   ___             ___           ___           ___           ___            ___            ___
@@ -95,7 +95,7 @@
 		};
 
 		NUM_layer {
-                        display-name = "3：Number, Symbol";
+                        display-name = "3 Number, Symbol";
                         bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
     ___     &mt DQT QMARK &kp LT        &kp EQUAL     &kp GT        &kp BSLH          &mt EXCL EQUAL  &mt PLUS N7 &mt MINUS N8   &mt UNDER N9  &kp RG(P)     ___
@@ -110,7 +110,7 @@
 		};
 
         		SYS_layer {
-                        display-name = "Bluetooth, Reset";
+                        display-name = "4 Bluetooth, Reset";
                         bindings = <
 //╭──────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮ ╭──────╮
     ___    &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3   &bt BT_CLR       ___           ___           ___           ___           ___             ___
